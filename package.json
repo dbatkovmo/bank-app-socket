@@ -1,0 +1,49 @@
+{
+  "name": "bank-app-socket",
+  "version": "1.0.0",
+  "description": "Socket server for messenger",
+  "keywords": [
+    "Socket",
+    "TypeScript",
+    "MySQL",
+    "JWT"
+  ],
+  "author": "batcoinmo",
+  "license": "ISC",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production ts-node src/index.ts",
+    "dev": "cross-env NODE_ENV=development nodemon src/index.ts",
+    "build": "tsc",
+    "start:prod": "node dist/index.js",
+    "prettier": "prettier --write ../../Downloads/Telegram Desktop"
+  },
+  "homepage": "https://github.com/dbatkovmo/bank-app-socket#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbatkovmo/bank-app-socket.git"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.12.0",
+    "random-avatar-generator": "^2.0.0",
+    "socket.io": "^4.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.13.5",
+    "@types/socket.io": "^3.0.1",
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.2"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

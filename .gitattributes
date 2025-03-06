@@ -1,0 +1,2 @@
+# запретить менять LF на CRLF
+* text=auto eol=lf

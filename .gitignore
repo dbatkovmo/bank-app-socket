@@ -1,0 +1,19 @@
+node_modules
+build
+dist
+.idea
+.firebase
+.github
+
+# go vendor folder
+vendor
+
+# cypress
+cypress/downloads
+cypress/screenshots
+
+# postgresql data folder
+db/postgresql/data
+
+# prod config eclude for public rep
+# prod.env
